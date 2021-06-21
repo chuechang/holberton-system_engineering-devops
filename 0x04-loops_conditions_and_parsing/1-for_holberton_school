@@ -1,4 +1,4 @@
-#!/bin/bash/env bash
+#!/usr/bin/env bash
 #Prints "Holberton School" ten times
 i=$i
 for i in {1..10}
