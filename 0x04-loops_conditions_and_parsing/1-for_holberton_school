@@ -1,6 +1,8 @@
 #!/bin/bash/env bash
 # Displays "Holberton School" ten times
 
+i=$i
+
 for i in {1..10}
 do
     echo "Holberton School"
