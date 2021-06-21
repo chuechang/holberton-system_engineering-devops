@@ -1,5 +1,5 @@
 #!/bin/bash/env bash
-# Displays "Holberton School" ten times
+#Prints "Holberton School" ten times
 
 i=$i
 
