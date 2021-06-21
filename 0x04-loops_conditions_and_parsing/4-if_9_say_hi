@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Displays "Holberton School" 10 times, but displays "Hi" on the 9th iteration
 
-n=1
+n=0
 while [ $n -lt 10 ]
 do
 	echo "Holberton School"
