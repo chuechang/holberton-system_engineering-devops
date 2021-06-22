@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Displays "bad luck" on 4th iteration, "good luck" on 8th iterations, "Holberton School" for all others
+n=0
+while [ $n -lt 10 ]
+do
+if [ $n -eq 7 ]
+then
+    echo "good luck"
+elif [ $n -eq 3 ]
+then
+    echo "bad luck"
+else
+    echo "Holberton School"
+fi
+((n++))
+done
