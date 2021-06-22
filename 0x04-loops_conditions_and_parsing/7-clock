@@ -8,7 +8,7 @@ hour=0
 
 while [ "$hour" -lt 13 ]
 do
-    echo "$hour"
+    echo "Hour: $hour"
     hour=$(( hour+1 ))
 
 minute=1
